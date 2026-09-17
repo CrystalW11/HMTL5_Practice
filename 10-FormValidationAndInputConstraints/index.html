@@ -6,15 +6,15 @@
     <title>Form Validation and Input Constraints</title>
 </head>
 <body>
-    <form action="/submit" method="post">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+    <form action="/register" method="post">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="99" required>
 
         <br>
         <br>
 
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phonenumber" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" required>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" max="2005-12-31" required>
 
         <br>
         <br>
