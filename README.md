@@ -18,3 +18,6 @@
 # 8-Form Input Types (Text,Email,Password,Number,Date,ETC)
 
 # 9-Placeholder, Required, and Other Form Attributes
+
+# 10-Form Validation And Input Constraints
+
