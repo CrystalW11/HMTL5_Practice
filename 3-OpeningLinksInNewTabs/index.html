@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opening Links in New Tabs</title>
+</head>
+<body>
+    <!-- This is one example-->
+    <a href="https://www.google.com" target="_blank">Open in new tab</a>
+
+    <br>
+        
+    <!-- This is a second example-->
+    <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Secure new tab link</a>
+
+    <br>
+
+    <button onclick="openNewTab()">Click to open in New Tab</button>
+
+    <!-- This below is the for the function of the button on line 19 -->
+    <script>
+        function openNewTab() {
+            window.open("https://www.w3schools.com/", "_blank");
+        }
+    </script>
+</body>
+</html>
