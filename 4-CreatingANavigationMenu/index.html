@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creatinga Naviation Menu</title>
+    <style>
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            background: #333;
+            padding-top: 20px;
+            position: fixed;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 10px;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            display: block;
+        }
+
+        .sidebar ul li a:hover {
+            background: #555;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="sidebar">
+        <ul><a href="#">Dashboard</a></ul>
+        <ul><a href="#">Profile</a></ul>
+        <ul><a href="#">Settings</a></ul>
+        <ul><a href="#">Logout</a></ul>
+    </nav>
+</body>
+</html>
