@@ -15,3 +15,5 @@
 
 # 7-Creating forms With Form Input And Label
 
+# 8-Form Input Types (Text,Email,Password,Number,Date,ETC)
+
