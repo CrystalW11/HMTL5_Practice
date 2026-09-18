@@ -22,3 +22,6 @@
 # 10-Form Validation And Input Constraints
 
 # 11-Creating Tables with `<table>`, `<tr>`, `<td>`, `<th>`
+
+# 12-Merging Cells With Rowspan And Colspan
+
