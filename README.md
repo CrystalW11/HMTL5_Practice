@@ -25,3 +25,4 @@
 
 # 12-Merging Cells With Rowspan And Colspan
 
+# 13-Geolocation API - Accessing
